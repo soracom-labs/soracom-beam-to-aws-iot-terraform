@@ -1,6 +1,8 @@
 # Purpose
 The purpose of this application is to stand up the AWS side of Soracom's getting started guide for [Beam](https://developers.soracom.io/en/start/aws/beam-iotcore/). 
 
+This repository is referred to in [this blog post](https://www.soracom.io/blog/automating-cloud-infrastructure-terraform-soracom/).
+
 The infrastucture will consist of at least one IoT thing with it's certificates and keys generated under the certs folder. The IoT things will be connected to an SNS topic that sends a text message to a phone number you provide. MQTT messages sent from the IoT thing on the topic will be forwarded to the phone number as an SMS.
 
 # Considerations
